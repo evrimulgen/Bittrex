@@ -1,1 +1,2 @@
-Bittrex
+Bittrex API Bot
+======
