@@ -45,7 +45,6 @@ namespace BittrexAPI.MainClient
         /// <summary>
         /// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets
         /// </summary>
-        /// <returns></returns>
         public async Task<ApiResult<Market[]>> GetMarkets()
         {
             var url = $"{_publicBaseUrl}/getmarkets";
@@ -58,7 +57,6 @@ namespace BittrexAPI.MainClient
         /// <summary>
         /// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies
         /// </summary>
-        /// <returns></returns>
         public async Task<ApiResult<CurrencyModel[]>> GetCurrenies()
         {
             var url = $"{_publicBaseUrl}/getcurrencies";
@@ -71,8 +69,7 @@ namespace BittrexAPI.MainClient
         /// <summary>
         /// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker
         /// </summary>
-        /// <param name="market"></param>
-        /// <returns></returns>
+        /// <param name="market">The marketname, e.g. BTC-LTC</param>
         public async Task<ApiResult<Ticker>> GetTicker(string market)
         {
             var url = $"{_publicBaseUrl}/getticker?market={market}";
@@ -82,6 +79,9 @@ namespace BittrexAPI.MainClient
             return JsonConvert.DeserializeObject<ApiResult<Ticker>>(result);
         }
         
+        /// <summary>
+        /// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarketsummaries
+        /// </summary>
         public async Task<ApiResult<MarketSummary[]>> GetMarketSummaries()
         {
             var url = $"{_publicBaseUrl}/getmarketsummaries";
@@ -89,6 +89,21 @@ namespace BittrexAPI.MainClient
             var result = await GetPublicAsync(url).ConfigureAwait(false);
 
             return JsonConvert.DeserializeObject<ApiResult<MarketSummary[]>>(result);
+        }
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="market">The market you want to buy, e.g. BTC-LTC</param>
+        /// <param name="quantity">The amount of a coin you want to buy</param>
+        /// <param name="rate">The rate at which you want to place the order</param>
+        public async Task<ApiResult<BuyLimit>> BuyLimit(string market, decimal quantity, decimal rate)
+        {
+            var url = $"{_marketBaseUrl}/buylimit?apikey={_apiKey}&market={market}&quantity={quantity}&rate={rate}";
+
+            var result = await GetPrivateAsync(url, _apiSecret).ConfigureAwait(false);
+
+            return JsonConvert.DeserializeObject<ApiResult<BuyLimit>>(result);
         }
         
         /// <summary>
@@ -104,7 +119,7 @@ namespace BittrexAPI.MainClient
             var result = await GetPrivateAsync(url, _apiSecret).ConfigureAwait(false);
 
             return JsonConvert.DeserializeObject<ApiResult<AccountBalance[]>>(result);
-        }
+        }        
         
         /// <summary>
         /// Do a HTTP GET request to a public url

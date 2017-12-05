@@ -12,8 +12,6 @@ namespace BittrexAPI
             string apiSecret = "";
             
             var bittrexClient = new Client(apiKey, apiSecret);
-
-            
         }
     }
 }

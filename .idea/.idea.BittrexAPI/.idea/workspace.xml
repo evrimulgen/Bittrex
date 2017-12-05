@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47583c4-bdfd-430a-bf4a-87b734ad3c55" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/ApiResult.1.5.3/ApiResult.1.5.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/ApiResult.1.5.3/lib/net45/Calabonga.Mvc.ApiExtensions.dll" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.exe" afterPath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.pdb" afterPath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csproj.CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.exe" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.pdb" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/BittrexAPI.csproj" afterPath="$PROJECT_DIR$/BittrexAPI/BittrexAPI.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Client/Client.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Client/Client.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Program.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,16 +23,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BittrexAPI/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
               <folding>
-                <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-                <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-                <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-                <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+                <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+                <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+                <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+                <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -33,59 +41,48 @@
       <file leaf-file-name="Client.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="106" column="9" lean-forward="false" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
               <folding>
-                <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-                <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-                <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-                <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-                <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-                <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-                <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-                <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-                <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-                <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-                <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+                <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+                <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+                <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+                <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+                <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+                <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+                <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+                <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+                <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+                <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+                <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+                <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+                <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarketSummary.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs">
+      <file leaf-file-name="BuyLimit.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <marker date="1512478972541" expanded="true" signature="42:679" ph="{...}" />
-                <marker date="1512478972541" expanded="true" signature="75:677" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Market.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <marker date="1512418722190" expanded="true" signature="42:554" ph="{...}" />
-                <marker date="1512418722190" expanded="true" signature="49:122" ph="/// Retrieves all the public markets ... " />
-                <marker date="1512418722190" expanded="true" signature="146:552" ph="{...}" />
+                <marker date="1512483077475" expanded="true" signature="27:110" ph="{...}" />
+                <marker date="1512483077475" expanded="true" signature="55:108" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -106,6 +103,7 @@
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Currency.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs" root0="FORCE_HIGHLIGHTING" />
@@ -124,9 +122,10 @@
         <option value="$PROJECT_DIR$/BittrexAPI/Models/Ticker.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Models/MarketSummary.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/OrderBook.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Client/Client.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Program.cs" />
-        <option value="$PROJECT_DIR$/BittrexAPI/Models/OrderBook.cs" />
       </list>
     </option>
   </component>
@@ -179,14 +178,27 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Client" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Client" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Private" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Public" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -249,7 +261,7 @@
       <workItem from="1512458153809" duration="97000" />
       <workItem from="1512478344114" duration="23000" />
       <workItem from="1512478379720" duration="971000" />
-      <workItem from="1512480238144" duration="1658000" />
+      <workItem from="1512480238144" duration="3662000" />
     </task>
     <task id="LOCAL-00001" summary="Added MarketSummary">
       <created>1512480716928</created>
@@ -269,7 +281,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22842000" />
+    <option name="totallyTimeSpent" value="24846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,16 +294,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35362014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35362014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30430222" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -324,47 +337,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BittrexAPI/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -381,29 +362,32 @@
         <state relative-caret-position="1335">
           <caret line="89" column="48" lean-forward="false" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -413,10 +397,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -426,29 +410,32 @@
         <state relative-caret-position="195">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -458,10 +445,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -471,29 +458,32 @@
         <state relative-caret-position="150">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -560,6 +550,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding>
+            <marker date="1512418710931" expanded="true" signature="34:113" ph="/// Retrieves all the available currencies ... " />
+            <marker date="1512418710931" expanded="true" signature="144:478" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -568,10 +562,10 @@
         <state relative-caret-position="330">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -581,29 +575,32 @@
         <state relative-caret-position="358">
           <caret line="89" column="9" lean-forward="false" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -613,29 +610,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -645,10 +645,10 @@
         <state relative-caret-position="255">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -657,37 +657,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512418710931" expanded="true" signature="34:113" ph="/// Retrieves all the available currencies ... " />
+            <marker date="1512418710931" expanded="true" signature="144:478" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -697,29 +669,67 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -729,10 +739,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -749,29 +759,32 @@
         <state relative-caret-position="735">
           <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -781,10 +794,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -801,29 +814,32 @@
         <state relative-caret-position="1335">
           <caret line="89" column="48" lean-forward="false" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -833,10 +849,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -846,29 +862,32 @@
         <state relative-caret-position="195">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -878,10 +897,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -891,29 +910,32 @@
         <state relative-caret-position="150">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -962,33 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Currency.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
-            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/OrderBook.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -997,34 +992,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="228:7059" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512480600431" expanded="true" signature="1164:1732" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="1766:1946" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512480600431" expanded="true" signature="2006:2269" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2287:2473" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512480600431" expanded="true" signature="2542:2781" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="2799:3018" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512480600431" expanded="true" signature="3088:3330" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3414:3658" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="3676:3871" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512480600431" expanded="true" signature="3939:4264" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="4282:4368" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512480600431" expanded="true" signature="4430:5043" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5061:5226" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512480600431" expanded="true" signature="5304:5860" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="5878:6078" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512480600431" expanded="true" signature="6144:6482" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6283:6472" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6712:6839" ph="{...}" />
-            <marker date="1512480600431" expanded="true" signature="6921:7053" ph="{...}" />
+            <marker date="1512418636485" expanded="true" signature="27:502" ph="{...}" />
+            <marker date="1512418636485" expanded="true" signature="34:103" ph="/// Retrieves the user's balance ... " />
+            <marker date="1512418636485" expanded="true" signature="135:500" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Currency.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding>
+            <marker date="1512418710931" expanded="true" signature="34:113" ph="/// Retrieves all the available currencies ... " />
+            <marker date="1512418710931" expanded="true" signature="144:478" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1512418722190" expanded="true" signature="42:554" ph="{...}" />
+            <marker date="1512418722190" expanded="true" signature="49:122" ph="/// Retrieves all the public markets ... " />
+            <marker date="1512418722190" expanded="true" signature="146:552" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1040,14 +1038,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <marker date="1512418722190" expanded="true" signature="42:554" ph="{...}" />
-            <marker date="1512418722190" expanded="true" signature="49:122" ph="/// Retrieves all the public markets ... " />
-            <marker date="1512418722190" expanded="true" signature="146:552" ph="{...}" />
+            <marker date="1512483077475" expanded="true" signature="27:110" ph="{...}" />
+            <marker date="1512483077475" expanded="true" signature="55:108" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="106" column="9" lean-forward="false" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+          <folding>
+            <marker date="1512484148754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1512484148754" expanded="true" signature="202:7900" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="228:7898" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="840:1109" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512484148754" expanded="true" signature="1164:1732" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="1766:1914" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512484148754" expanded="true" signature="1974:2237" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2255:2409" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512484148754" expanded="true" signature="2478:2717" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="2735:2950" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512484148754" expanded="true" signature="3020:3262" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3280:3448" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512484148754" expanded="true" signature="3523:3767" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="3785:4081" ph="///  ... " />
+            <marker date="1512484148754" expanded="true" signature="4184:4489" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="4507:4702" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512484148754" expanded="true" signature="4770:5095" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5121:5207" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512484148754" expanded="true" signature="5269:5882" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="5900:6065" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512484148754" expanded="true" signature="6143:6699" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="6717:6917" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512484148754" expanded="true" signature="6983:7321" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7122:7311" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7551:7678" ph="{...}" />
+            <marker date="1512484148754" expanded="true" signature="7760:7892" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <marker date="1512484187793" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512484187793" expanded="true" signature="94:342" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="121:340" ph="{...}" />
+            <marker date="1512484187793" expanded="true" signature="160:334" ph="{...}" />
           </folding>
         </state>
       </provider>
