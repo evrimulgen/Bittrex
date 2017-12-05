@@ -55,6 +55,10 @@ namespace BittrexAPI.MainClient
             return JsonConvert.DeserializeObject<ApiResult<Market[]>>(result);
         }
 
+        /// <summary>
+        /// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies
+        /// </summary>
+        /// <returns></returns>
         public async Task<ApiResult<CurrencyModel[]>> GetCurrenies()
         {
             var url = $"{_publicBaseUrl}/getcurrencies";
@@ -63,7 +67,12 @@ namespace BittrexAPI.MainClient
 
             return JsonConvert.DeserializeObject<ApiResult<CurrencyModel[]>>(result);
         }
-
+        
+        /// <summary>
+        /// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker
+        /// </summary>
+        /// <param name="market"></param>
+        /// <returns></returns>
         public async Task<ApiResult<Ticker>> GetTicker(string market)
         {
             var url = $"{_publicBaseUrl}/getticker?market={market}";
