@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47583c4-bdfd-430a-bf4a-87b734ad3c55" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Currency.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/Currency.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Market.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/MarketSummary.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Ticker.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.exe" afterPath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.pdb" afterPath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.exe" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.pdb" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.pdb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/ApiResult.1.5.3/ApiResult.1.5.3.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/ApiResult.1.5.3/lib/net45/Calabonga.Mvc.ApiExtensions.dll" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/BittrexAPI.csproj" afterPath="$PROJECT_DIR$/BittrexAPI/BittrexAPI.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Program.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -182,27 +173,20 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Client" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Private" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Public" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -265,7 +249,7 @@
       <workItem from="1512458153809" duration="97000" />
       <workItem from="1512478344114" duration="23000" />
       <workItem from="1512478379720" duration="971000" />
-      <workItem from="1512480238144" duration="1561000" />
+      <workItem from="1512480238144" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary="Added MarketSummary">
       <created>1512480716928</created>
@@ -274,11 +258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512480716928</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Distinguished Public and Private calls">
+      <created>1512481845834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512481845834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22745000" />
+    <option name="totallyTimeSpent" value="22842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,7 +316,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added MarketSummary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MarketSummary" />
+    <MESSAGE value="Distinguished Public and Private calls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Distinguished Public and Private calls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
