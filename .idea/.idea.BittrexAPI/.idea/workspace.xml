@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47583c4-bdfd-430a-bf4a-87b734ad3c55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BittrexAPI/Models/MarketSummary.cs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Currency.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/Currency.cs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Market.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/MarketSummary.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Ticker.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.exe" afterPath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.pdb" afterPath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csproj.CoreCompileInputs.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.exe" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.pdb" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/BittrexAPI.csproj" afterPath="$PROJECT_DIR$/BittrexAPI/BittrexAPI.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Client/Client.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Client/Client.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Program.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,16 +24,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BittrexAPI/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
-                <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-                <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-                <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-                <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+                <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+                <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+                <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+                <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file leaf-file-name="Client.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state relative-caret-position="1470">
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding>
                 <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
                 <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
@@ -73,19 +73,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MarketSummary.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+              <folding>
+                <marker date="1512478972541" expanded="true" signature="42:679" ph="{...}" />
+                <marker date="1512478972541" expanded="true" signature="75:677" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Market.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <marker date="1512418722190" expanded="true" signature="42:554" ph="{...}" />
+                <marker date="1512418722190" expanded="true" signature="49:122" ph="/// Retrieves all the public markets ... " />
+                <marker date="1512418722190" expanded="true" signature="146:552" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Jurrian Kole" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F25F094-82FE-4F53-AC77-B9F2528AFF56/ae/591c6c9f/ApiResult`1.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Currency.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Market.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Ticker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/MarketSummary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Currency.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/ApiResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -101,8 +133,9 @@
         <option value="$PROJECT_DIR$/BittrexAPI/Models/Ticker.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Models/MarketSummary.cs" />
-        <option value="$PROJECT_DIR$/BittrexAPI/Program.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Client/Client.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Program.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/OrderBook.cs" />
       </list>
     </option>
   </component>
@@ -156,6 +189,20 @@
               <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Private" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Public" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -218,12 +265,20 @@
       <workItem from="1512458153809" duration="97000" />
       <workItem from="1512478344114" duration="23000" />
       <workItem from="1512478379720" duration="971000" />
-      <workItem from="1512480238144" duration="422000" />
+      <workItem from="1512480238144" duration="1561000" />
     </task>
+    <task id="LOCAL-00001" summary="Added MarketSummary">
+      <created>1512480716928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512480716928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21606000" />
+    <option name="totallyTimeSpent" value="22745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +291,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -246,7 +300,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35362014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30430222" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -258,7 +313,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30430222" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -269,18 +323,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added MarketSummary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added MarketSummary" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -318,15 +369,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
@@ -370,10 +421,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -415,10 +466,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -485,14 +536,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Market.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Ticker.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
@@ -506,14 +557,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Currency.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Currency.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
@@ -525,10 +576,10 @@
         <state relative-caret-position="330">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -602,15 +653,15 @@
         <state relative-caret-position="255">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Currency.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Currency.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
@@ -686,15 +737,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
@@ -738,15 +789,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
@@ -790,10 +841,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -835,10 +886,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -905,14 +956,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Market.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Ticker.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
@@ -926,31 +970,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Currency.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Currency.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/MarketSummary.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="195">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <marker date="1512480994379" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512480994379" expanded="true" signature="94:356" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="121:354" ph="{...}" />
+            <marker date="1512480994379" expanded="true" signature="160:348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/OrderBook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Client.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state relative-caret-position="1470">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding>
             <marker date="1512480600431" expanded="false" signature="6:169" ph="..." />
             <marker date="1512480600431" expanded="true" signature="202:7061" ph="{...}" />
@@ -979,15 +1037,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Program.cs">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding>
-            <marker date="1512479312799" expanded="false" signature="6:72" ph="..." />
-            <marker date="1512479312799" expanded="true" signature="94:354" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="121:352" ph="{...}" />
-            <marker date="1512479312799" expanded="true" signature="160:346" ph="{...}" />
+            <marker date="1512478972541" expanded="true" signature="42:679" ph="{...}" />
+            <marker date="1512478972541" expanded="true" signature="75:677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1512418722190" expanded="true" signature="42:554" ph="{...}" />
+            <marker date="1512418722190" expanded="true" signature="49:122" ph="/// Retrieves all the public markets ... " />
+            <marker date="1512418722190" expanded="true" signature="146:552" ph="{...}" />
           </folding>
         </state>
       </provider>

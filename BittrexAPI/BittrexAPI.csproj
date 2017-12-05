@@ -47,12 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\Client.cs" />
-    <Compile Include="Models\AccountBalance.cs" />
     <Compile Include="Models\ApiResult.cs" />
-    <Compile Include="Models\Currency.cs" />
-    <Compile Include="Models\Market.cs" />
-    <Compile Include="Models\MarketSummary.cs" />
-    <Compile Include="Models\Ticker.cs" />
+    <Compile Include="Models\Private\AccountBalance.cs" />
+    <Compile Include="Models\Public\Currency.cs" />
+    <Compile Include="Models\Public\Market.cs" />
+    <Compile Include="Models\Public\MarketSummary.cs" />
+    <Compile Include="Models\Public\Ticker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
