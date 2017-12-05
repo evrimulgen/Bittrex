@@ -1,7 +1,5 @@
 Bittrex API Bot
 ======
-This is a project started just for fun, testing my skills with async method calls.
-
 
 Currently supported functionality
 ------
@@ -15,3 +13,10 @@ Private calls
 - GetBalance()
 - BuyLimit()
 - SellLimit()
+
+TODO
+------
+- /account/orderhistory -> Quantity * PricePerUnit = price at which we bought the coin 
+- Current worth of the coin - TxFee = price which the coin is worth right now
+- Currentprice - Buyprice == $$$profit$$$
+- Check coincmarketcap API for most stable and profitable coins to buy
