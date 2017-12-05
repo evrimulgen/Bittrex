@@ -11,7 +11,6 @@
         public decimal Pending { get; set; }
         public string CryptoAddress { get; set; }
         public bool Requested { get; set; }
-        // What datatype is Uuid???
         public string Uuid { get; set; }
     }
 }

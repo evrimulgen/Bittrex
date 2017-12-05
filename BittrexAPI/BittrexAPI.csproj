@@ -50,6 +50,7 @@
     <Compile Include="Models\ApiResult.cs" />
     <Compile Include="Models\Private\AccountBalance.cs" />
     <Compile Include="Models\Private\BuyLimit.cs" />
+    <Compile Include="Models\Private\SellLimit.cs" />
     <Compile Include="Models\Public\Currency.cs" />
     <Compile Include="Models\Public\Market.cs" />
     <Compile Include="Models\Public\MarketSummary.cs" />

@@ -92,18 +92,37 @@ namespace BittrexAPI.MainClient
         }
         
         /// <summary>
-        /// 
+        /// Create a buylimit for the selected market, URL passed in: https://bittrex.com/api/v1.1/market/buylimit?apikey=APIKEY&market=MARKET&quantity=QUANTITY&rate=RATE&nonce=NONCE
         /// </summary>
         /// <param name="market">The market you want to buy, e.g. BTC-LTC</param>
         /// <param name="quantity">The amount of a coin you want to buy</param>
         /// <param name="rate">The rate at which you want to place the order</param>
         public async Task<ApiResult<BuyLimit>> BuyLimit(string market, decimal quantity, decimal rate)
         {
-            var url = $"{_marketBaseUrl}/buylimit?apikey={_apiKey}&market={market}&quantity={quantity}&rate={rate}";
+            var nonce = GenerateNonce();
+            
+            var url = $"{_marketBaseUrl}/buylimit?apikey={_apiKey}&market={market}&quantity={quantity}&rate={rate}&nonce={nonce}";
 
             var result = await GetPrivateAsync(url, _apiSecret).ConfigureAwait(false);
 
             return JsonConvert.DeserializeObject<ApiResult<BuyLimit>>(result);
+        }
+
+        /// <summary>
+        /// Create a selllimit for the selected market, https://bittrex.com/api/v1.1/market/selllimit?apikey=APIKEY&market=MARKET&quantity=QUANTITY&rate=RATE&nonce=NONCE
+        /// </summary>
+        /// <param name="market">The market you want to sell, e.g. BTC-LTC</param>
+        /// <param name="quantity">The amount of a coin you want to sell</param>
+        /// <param name="rate">The rate at which you want to sell</param>
+        public async Task<ApiResult<SellLimit>> SellLimit(string market, decimal quantity, decimal rate)
+        {
+            var nonce = GenerateNonce();
+            
+            var url = $"{_marketBaseUrl}/selllimit?apikey={_apiKey}&market={market}&quantity={quantity}&rate={rate}&nonce={nonce}";
+
+            var result = await GetPrivateAsync(url, _apiSecret).ConfigureAwait(false);
+
+            return JsonConvert.DeserializeObject<ApiResult<SellLimit>>(result);
         }
         
         /// <summary>
