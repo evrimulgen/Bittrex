@@ -5,7 +5,11 @@ This is a project started just for fun, testing my skills with async method call
 
 Currently supported functionality
 ------
-- GetTicker()
+Public calls
+- GetTicker() 
 - GetCurrencies()
 - GetMarkets()
+- GetMarketSummary()
+
+Private calls
 - GetBalance()
