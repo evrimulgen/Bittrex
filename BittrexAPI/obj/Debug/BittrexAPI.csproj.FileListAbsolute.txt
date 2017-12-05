@@ -6,3 +6,11 @@ C:\Users\jurri\Desktop\BittrexAPI\BittrexAPI\obj\Debug\BittrexAPI.csprojResolveA
 C:\Users\jurri\Desktop\BittrexAPI\BittrexAPI\obj\Debug\BittrexAPI.csproj.CoreCompileInputs.cache
 C:\Users\jurri\Desktop\BittrexAPI\BittrexAPI\obj\Debug\BittrexAPI.exe
 C:\Users\jurri\Desktop\BittrexAPI\BittrexAPI\obj\Debug\BittrexAPI.pdb
+C:\Users\jurri\Desktop\Bittrex\BittrexAPI\bin\Debug\BittrexAPI.exe
+C:\Users\jurri\Desktop\Bittrex\BittrexAPI\bin\Debug\BittrexAPI.pdb
+C:\Users\jurri\Desktop\Bittrex\BittrexAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jurri\Desktop\Bittrex\BittrexAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jurri\Desktop\Bittrex\BittrexAPI\obj\Debug\BittrexAPI.csprojResolveAssemblyReference.cache
+C:\Users\jurri\Desktop\Bittrex\BittrexAPI\obj\Debug\BittrexAPI.csproj.CoreCompileInputs.cache
+C:\Users\jurri\Desktop\Bittrex\BittrexAPI\obj\Debug\BittrexAPI.exe
+C:\Users\jurri\Desktop\Bittrex\BittrexAPI\obj\Debug\BittrexAPI.pdb

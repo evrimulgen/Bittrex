@@ -51,6 +51,7 @@
     <Compile Include="Models\ApiResult.cs" />
     <Compile Include="Models\Currency.cs" />
     <Compile Include="Models\Market.cs" />
+    <Compile Include="Models\MarketSummary.cs" />
     <Compile Include="Models\Ticker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

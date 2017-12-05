@@ -21,7 +21,7 @@ namespace BittrexAPI.MainClient
         
         // A httpclient lets us connect to the interwebs
         private readonly HttpClient _httpClient;
-
+        
         /// <summary>
         /// Make a client that will connect to the designed Bittrex api page
         /// </summary>
@@ -54,7 +54,7 @@ namespace BittrexAPI.MainClient
             
             return JsonConvert.DeserializeObject<ApiResult<Market[]>>(result);
         }
-
+        
         /// <summary>
         /// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies
         /// </summary>
@@ -81,7 +81,16 @@ namespace BittrexAPI.MainClient
 
             return JsonConvert.DeserializeObject<ApiResult<Ticker>>(result);
         }
+        
+        public async Task<ApiResult<MarketSummary[]>> GetMarketSummaries()
+        {
+            var url = $"{_publicBaseUrl}/getmarketsummaries";
 
+            var result = await GetPublicAsync(url).ConfigureAwait(false);
+
+            return JsonConvert.DeserializeObject<ApiResult<MarketSummary[]>>(result);
+        }
+        
         /// <summary>
         /// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&nonce=NONCE
         /// </summary>
@@ -114,7 +123,7 @@ namespace BittrexAPI.MainClient
             // Return our response
             return await response.Content.ReadAsStringAsync().ConfigureAwait(false);
         }
-
+        
         /// <summary>
         /// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a timesetting
         /// </summary>
@@ -132,7 +141,7 @@ namespace BittrexAPI.MainClient
 
             return await response.Content.ReadAsStringAsync().ConfigureAwait(false);
         }
-
+        
         /// <summary>
         /// Cryptography magic is happening here, keep scrolling!
         /// </summary>
@@ -148,7 +157,7 @@ namespace BittrexAPI.MainClient
                 return BitConverter.ToString(hashBytes).Replace("-", "");
             }
         }
-                
+        
         // Generate the DateTime difference, basic server authentication stuff
         private static readonly DateTime Epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
 
@@ -158,7 +167,7 @@ namespace BittrexAPI.MainClient
 
             return nonce.ToString();
         }
-
+        
         private string BuildParameters(string parameterName, object obj)
         {
             if (obj == null)
