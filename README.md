@@ -13,3 +13,4 @@ Public calls
 
 Private calls
 - GetBalance()
+- BuyLimit()
