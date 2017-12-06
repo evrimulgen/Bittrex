@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using BittrexAPI.MainClient;
 
 namespace BittrexAPI
@@ -11,9 +12,10 @@ namespace BittrexAPI
             string apiKey = "";
             string apiSecret = "";
             
-            // Set up the two clients: one for the operations (such as buy/sell) and one to calculate the margins
-            var bittrexClient = new Client(apiKey, apiSecret);           
-            var calculationClient = new CalculationClient(bittrexClient);            
+            // Set up the three clients: one for the operations (such as buy/sell), one to calculate the margins and one for the CoinMarketCap data
+            var bittrexClient = new BittrexClient(apiKey, apiSecret);           
+            var calculationClient = new CalculationClient(bittrexClient);
+            var cmcClient = new CMCClient();
 
             await calculationClient.CalculateTransactionFee("ETH");
         }

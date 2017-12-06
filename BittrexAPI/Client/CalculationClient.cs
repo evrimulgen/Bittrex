@@ -6,9 +6,9 @@ namespace BittrexAPI.MainClient
 {
     public class CalculationClient
     {
-        private readonly Client _client;
+        private readonly BittrexClient _client;
 
-        public CalculationClient(Client client)
+        public CalculationClient(BittrexClient client)
         {
             _client = client;
         }
@@ -17,7 +17,6 @@ namespace BittrexAPI.MainClient
         /// Calculate the transaction fee
         /// </summary>
         /// <param name="_coin">Name of the coin, e.g. BTC or LTC</param>
-        /// <returns></returns>
         public async Task<decimal> CalculateTransactionFee(string _coin)
         {
             decimal TxFee = 0;
@@ -59,7 +58,6 @@ namespace BittrexAPI.MainClient
         /// Retrieves the Last price of the market
         /// </summary>
         /// <param name="_market">The market of the designated coin, e.g. USDT-BTC</param>
-        /// <returns></returns>
         private async Task<decimal> CalculateFeeToUSD(string _market)
         {
             decimal lastPrice = 0;
