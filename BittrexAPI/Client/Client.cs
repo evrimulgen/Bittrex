@@ -39,7 +39,7 @@ namespace BittrexAPI.MainClient
             _marketBaseUrl = $"{_baseAddress}/{_apiVersion}/market";
             _accountBaseUrl = $"{_baseAddress}/{_apiVersion}/account";
 
-            Console.WriteLine("The client has been configured succesfully, buckle your seatbelts, you're about to go onto a mission to the moon!\n");            
+            // Console.WriteLine("The client has been configured succesfully, buckle your seatbelts, you're about to go onto a mission to the moon!\n");            
         }                
         
         /// <summary>
@@ -138,7 +138,18 @@ namespace BittrexAPI.MainClient
             var result = await GetPrivateAsync(url, _apiSecret).ConfigureAwait(false);
 
             return JsonConvert.DeserializeObject<ApiResult<AccountBalance[]>>(result);
-        }        
+        }
+
+        public async Task<ApiResult<OrderHistory[]>> GetOrderHistory()
+        {
+            var nonce = GenerateNonce();
+
+            var url = $"{_accountBaseUrl}/getorderhistory?apikey={_apiKey}&nonce={nonce}";
+
+            var result = await GetPrivateAsync(url, _apiSecret).ConfigureAwait(false);
+
+            return JsonConvert.DeserializeObject<ApiResult<OrderHistory[]>>(result);
+        }
         
         /// <summary>
         /// Do a HTTP GET request to a public url

@@ -46,10 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\CalculationClient.cs" />
     <Compile Include="Client\Client.cs" />
     <Compile Include="Models\ApiResult.cs" />
     <Compile Include="Models\Private\AccountBalance.cs" />
     <Compile Include="Models\Private\BuyLimit.cs" />
+    <Compile Include="Models\Private\OrderHistory.cs" />
     <Compile Include="Models\Private\SellLimit.cs" />
     <Compile Include="Models\Public\Currency.cs" />
     <Compile Include="Models\Public\Market.cs" />
