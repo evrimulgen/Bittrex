@@ -2,6 +2,9 @@
 
 namespace BittrexAPI.Models
 {
+    /// <summary>
+    /// Retrieves the users order history
+    /// </summary>
     public class OrderHistory
     {
         public string OrderUuid { get; set; }

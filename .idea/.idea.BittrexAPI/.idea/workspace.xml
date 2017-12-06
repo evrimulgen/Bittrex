@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47583c4-bdfd-430a-bf4a-87b734ad3c55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BittrexAPI/Client/CMCClient.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/CMC.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BittrexAPI/config.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BittrexAPI/Client/Client.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Client/BittrexClient.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BittrexAPI/Models/ConfigReader.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BittrexAPI/config.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.exe" afterPath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.pdb" afterPath="$PROJECT_DIR$/BittrexAPI/bin/Debug/BittrexAPI.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/BittrexAPI/obj/Debug/BittrexAPI.csproj.CoreCompileInputs.cache" />
@@ -14,7 +12,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BittrexAPI/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/BittrexAPI.csproj" afterPath="$PROJECT_DIR$/BittrexAPI/BittrexAPI.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Client/CalculationClient.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Client/CalculationClient.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Client/BittrexClient.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Client/BittrexClient.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Private/OrderHistory.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Private/OrderHistory.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Private/SellLimit.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Private/SellLimit.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Public/CMC.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/CMC.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BittrexAPI/Program.cs" afterPath="$PROJECT_DIR$/BittrexAPI/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,29 +34,35 @@
         <entry file="file://$PROJECT_DIR$/BittrexAPI/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
-                <marker date="1512589098950" expanded="true" signature="6:72" ph="..." />
-                <marker date="1512589098950" expanded="true" signature="94:753" ph="{...}" />
-                <marker date="1512589098950" expanded="true" signature="121:751" ph="{...}" />
-                <marker date="1512589098950" expanded="true" signature="167:745" ph="{...}" />
+                <marker date="1512592938622" expanded="false" signature="6:72" ph="..." />
+                <marker date="1512592938622" expanded="true" signature="94:783" ph="{...}" />
+                <marker date="1512592938622" expanded="true" signature="121:781" ph="{...}" />
+                <marker date="1512592938622" expanded="true" signature="167:775" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMCClient.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/CMCClient.cs">
+      <file leaf-file-name="CalculationClient.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/CalculationClient.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="735">
+              <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
               <folding>
-                <marker date="1512589084547" expanded="true" signature="6:114" ph="..." />
-                <marker date="1512589084547" expanded="true" signature="147:1252" ph="{...}" />
-                <marker date="1512589084547" expanded="true" signature="176:1250" ph="{...}" />
-                <marker date="1512589084547" expanded="true" signature="488:552" ph="{...}" />
-                <marker date="1512589084547" expanded="true" signature="598:822" ph="{...}" />
-                <marker date="1512589084547" expanded="true" signature="885:1244" ph="{...}" />
+                <marker date="1512588317178" expanded="false" signature="6:68" ph="..." />
+                <marker date="1512588317178" expanded="true" signature="101:3054" ph="{...}" />
+                <marker date="1512588317178" expanded="true" signature="138:3052" ph="{...}" />
+                <marker date="1512588317178" expanded="true" signature="248:298" ph="{...}" />
+                <marker date="1512588317178" expanded="true" signature="308:460" ph="/// Calculate the transaction fee ... " />
+                <marker date="1512588317178" expanded="true" signature="533:1918" ph="{...}" />
+                <marker date="1512588317178" expanded="true" signature="896:1785" ph="{...}" />
+                <marker date="1512588317178" expanded="true" signature="970:1755" ph="{...}" />
+                <marker date="1512588317178" expanded="true" signature="1225:1598" ph="{...}" />
+                <marker date="1512588317178" expanded="true" signature="1928:2106" ph="/// Retrieves the Last price of the market ... " />
+                <marker date="1512588317178" expanded="true" signature="2176:3046" ph="{...}" />
+                <marker date="1512588317178" expanded="true" signature="2301:3005" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,9 +92,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F25F094-82FE-4F53-AC77-B9F2528AFF56/ae/591c6c9f/ApiResult`1.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/CMC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Client/CMCClient.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BittrexAPI/config.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/ConfigReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/SellLimit.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -100,17 +110,21 @@
         <option value="$PROJECT_DIR$/BittrexAPI/Models/AccountBalance.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Models/MarketSummary.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Models/OrderBook.cs" />
-        <option value="$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs" />
-        <option value="$PROJECT_DIR$/BittrexAPI/Models/Private/SellLimit.cs" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/BittrexAPI/Models/Private/OrderHistory.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Client/Calculations.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Client/CalculationClient.cs" />
-        <option value="$PROJECT_DIR$/BittrexAPI/config.json" />
         <option value="$PROJECT_DIR$/BittrexAPI/Client/Client.cs" />
-        <option value="$PROJECT_DIR$/BittrexAPI/Models/Public/CMC.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Client/CMCClient.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/Private/OrderHistory.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/Private/SellLimit.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/config.json" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/Public/CMC.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Models/ConfigReader.cs" />
+        <option value="$PROJECT_DIR$/BittrexAPI/Client/BittrexClient.cs" />
         <option value="$PROJECT_DIR$/BittrexAPI/Program.cs" />
       </list>
     </option>
@@ -165,13 +179,6 @@
               <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="BittrexAPI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BittrexAPI" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Public" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -246,7 +253,7 @@
       <workItem from="1512557167178" duration="8000" />
       <workItem from="1512558513013" duration="3666000" />
       <workItem from="1512567399368" duration="102000" />
-      <workItem from="1512580200277" duration="6862000" />
+      <workItem from="1512580200277" duration="10695000" />
     </task>
     <task id="LOCAL-00001" summary="Added MarketSummary">
       <created>1512480716928</created>
@@ -297,11 +304,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512583524628</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Coinmarketcap support + deserialization">
+      <created>1512589156756</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512589156756</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50116000" />
+    <option name="totallyTimeSpent" value="53949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,10 +332,10 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847425" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22254616" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22254616" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.159375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -384,7 +398,8 @@
     <MESSAGE value="Fixed the BuyLimit method and added the SellLimit method" />
     <MESSAGE value="Updated readme" />
     <MESSAGE value="Added a client which will do the calculations (e.g. profitcalc, feecalc, etc...)&#10;&#10;Added support for Bitcoin and Ethereum markets in order to calculate fees!&#10;&#10;Added a OrderHistory deserializer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a client which will do the calculations (e.g. profitcalc, feecalc, etc...)&#10;&#10;Added support for Bitcoin and Ethereum markets in order to calculate fees!&#10;&#10;Added a OrderHistory deserializer" />
+    <MESSAGE value="Added Coinmarketcap support + deserialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Coinmarketcap support + deserialization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -393,13 +408,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/BittrexAPI.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Windows/Microsoft.NET/Framework/v4.0.30319/Microsoft.Common.targets">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -455,10 +463,10 @@
         <state relative-caret-position="330">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <marker date="1512589098950" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512589098950" expanded="true" signature="94:753" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="121:751" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="167:745" ph="{...}" />
+            <marker date="1512592938622" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512592938622" expanded="true" signature="94:783" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="121:781" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="167:775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -482,10 +490,10 @@
         <state relative-caret-position="255">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <marker date="1512589098950" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512589098950" expanded="true" signature="94:753" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="121:751" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="167:745" ph="{...}" />
+            <marker date="1512592938622" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512592938622" expanded="true" signature="94:783" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="121:781" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="167:775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -516,10 +524,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512589098950" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512589098950" expanded="true" signature="94:753" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="121:751" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="167:745" ph="{...}" />
+            <marker date="1512592938622" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512592938622" expanded="true" signature="94:783" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="121:781" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="167:775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -543,10 +551,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512589098950" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512589098950" expanded="true" signature="94:753" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="121:751" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="167:745" ph="{...}" />
+            <marker date="1512592938622" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512592938622" expanded="true" signature="94:783" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="121:781" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="167:775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -570,10 +578,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512589098950" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512589098950" expanded="true" signature="94:753" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="121:751" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="167:745" ph="{...}" />
+            <marker date="1512592938622" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512592938622" expanded="true" signature="94:783" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="121:781" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="167:775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -590,10 +598,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1512589098950" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512589098950" expanded="true" signature="94:753" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="121:751" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="167:745" ph="{...}" />
+            <marker date="1512592938622" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512592938622" expanded="true" signature="94:783" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="121:781" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="167:775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -636,13 +644,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/OrderBook.cs" />
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/SellLimit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -658,45 +659,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/Calculations.cs" />
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <marker date="1512589311341" expanded="true" signature="42:753" ph="{...}" />
+            <marker date="1512589311341" expanded="true" signature="49:118" ph="/// Retrieves the market summary ... " />
+            <marker date="1512589311341" expanded="true" signature="149:751" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Market.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/MarketSummary.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/OrderHistory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1512418722190" expanded="true" signature="42:554" ph="{...}" />
+            <marker date="1512418722190" expanded="true" signature="49:122" ph="/// Retrieves all the public markets ... " />
+            <marker date="1512418722190" expanded="true" signature="146:552" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -712,22 +695,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/config.json">
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/Ticker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding>
+            <marker date="1512589338961" expanded="true" signature="27:277" ph="{...}" />
+            <marker date="1512589338961" expanded="true" signature="34:115" ph="/// Recieves ticker information from bittrex ... " />
+            <marker date="1512589338961" expanded="true" signature="139:275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/OrderHistory.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding>
-            <marker date="1512588113147" expanded="true" signature="19:72" ph="{...}" />
+            <marker date="1512589374014" expanded="true" signature="42:834" ph="{...}" />
+            <marker date="1512589374014" expanded="true" signature="49:123" ph="/// Retrieves the users order history ... " />
+            <marker date="1512589374014" expanded="true" signature="153:832" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/BuyLimit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="64" lean-forward="false" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding>
+            <marker date="1512589374628" expanded="true" signature="27:212" ph="{...}" />
+            <marker date="1512589374628" expanded="true" signature="34:131" ph="/// Retrieves the order ID in case the user bought something ... " />
+            <marker date="1512589374628" expanded="true" signature="157:210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/SellLimit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+          <folding>
+            <marker date="1512589393463" expanded="true" signature="27:212" ph="{...}" />
+            <marker date="1512589393463" expanded="true" signature="34:130" ph="/// Retrieves the seller ID in case the user sold something ... " />
+            <marker date="1512589393463" expanded="true" signature="157:210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Private/AccountBalance.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1512484836949" expanded="true" signature="27:466" ph="{...}" />
+            <marker date="1512484836949" expanded="true" signature="34:103" ph="/// Retrieves the user's balance ... " />
+            <marker date="1512484836949" expanded="true" signature="135:464" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/CMCClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1512589084547" expanded="false" signature="6:114" ph="..." />
+            <marker date="1512589084547" expanded="true" signature="147:1252" ph="{...}" />
+            <marker date="1512589084547" expanded="true" signature="176:1250" ph="{...}" />
+            <marker date="1512589084547" expanded="true" signature="488:552" ph="{...}" />
+            <marker date="1512589084547" expanded="true" signature="598:822" ph="{...}" />
+            <marker date="1512589084547" expanded="true" signature="885:1244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/CMC.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <marker date="1512589851560" expanded="true" signature="27:820" ph="{...}" />
+            <marker date="1512589851560" expanded="true" signature="34:112" ph="/// Retrieves the data from coinmarketcap ... " />
+            <marker date="1512589851560" expanded="true" signature="133:818" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/ApiResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1512418684253" expanded="true" signature="51:772" ph="{...}" />
+            <marker date="1512418684253" expanded="true" signature="58:255" ph="/// Bittrex API calls return a succes boolean, a message and a result ... " />
+            <marker date="1512418684253" expanded="true" signature="285:770" ph="{...}" />
+            <marker date="1512418684253" expanded="true" signature="356:467" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/ConfigReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1512591761049" expanded="true" signature="51:501" ph="{...}" />
+            <marker date="1512591761049" expanded="true" signature="86:280" ph="{...}" />
+            <marker date="1512591761049" expanded="true" signature="130:179" ph="{...}" />
+            <marker date="1512591761049" expanded="true" signature="290:363" ph="/// Deserialize the config.json file ... " />
+            <marker date="1512591761049" expanded="true" signature="393:499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/BittrexClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="218" column="53" lean-forward="false" selection-start-line="218" selection-start-column="53" selection-end-line="218" selection-end-column="53" />
+          <folding>
+            <marker date="1512592762473" expanded="false" signature="6:228" ph="..." />
+            <marker date="1512592762473" expanded="true" signature="261:9890" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="294:9888" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="906:1175" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
+            <marker date="1512592762473" expanded="true" signature="1237:1808" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="1842:1990" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
+            <marker date="1512592762473" expanded="true" signature="2050:2313" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="2331:2485" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
+            <marker date="1512592762473" expanded="true" signature="2554:2793" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="2811:3026" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
+            <marker date="1512592762473" expanded="true" signature="3096:3338" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="3356:3524" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
+            <marker date="1512592762473" expanded="true" signature="3599:3843" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="3861:4327" ph="/// Create a buylimit for the selected market, URL passed in: https://bittrex.com/api/v1.1/market/buylimit?apikey ... " />
+            <marker date="1512592762473" expanded="true" signature="4430:4803" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="4813:5257" ph="/// Create a selllimit for the selected market, https://bittrex.com/api/v1.1/market/selllimit?apikey=APIKEY&amp;marke ... " />
+            <marker date="1512592762473" expanded="true" signature="5362:5737" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="5755:5950" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
+            <marker date="1512592762473" expanded="true" signature="6018:6343" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="6415:6742" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="6760:6846" ph="/// Do a HTTP GET request to a public url ... " />
+            <marker date="1512592762473" expanded="true" signature="6908:7521" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="7539:7704" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
+            <marker date="1512592762473" expanded="true" signature="7782:8338" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="8356:8556" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
+            <marker date="1512592762473" expanded="true" signature="8622:8960" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="8761:8950" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="9190:9317" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="9335:9457" ph="/// Read the users config file and process it ... " />
+            <marker date="1512592762473" expanded="true" signature="9514:9882" ph="{...}" />
+            <marker date="1512592762473" expanded="true" signature="9669:9842" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/CalculationClient.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
+        <state relative-caret-position="735">
           <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
           <folding>
-            <marker date="1512588317178" expanded="true" signature="6:68" ph="..." />
+            <marker date="1512588317178" expanded="false" signature="6:68" ph="..." />
             <marker date="1512588317178" expanded="true" signature="101:3054" ph="{...}" />
             <marker date="1512588317178" expanded="true" signature="138:3052" ph="{...}" />
             <marker date="1512588317178" expanded="true" signature="248:298" ph="{...}" />
@@ -743,92 +878,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/ApiResult.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1512418684253" expanded="true" signature="51:772" ph="{...}" />
-            <marker date="1512418684253" expanded="true" signature="58:255" ph="/// Bittrex API calls return a succes boolean, a message and a result ... " />
-            <marker date="1512418684253" expanded="true" signature="285:770" ph="{...}" />
-            <marker date="1512418684253" expanded="true" signature="356:467" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Models/Public/CMC.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <marker date="1512588872501" expanded="true" signature="27:731" ph="{...}" />
-            <marker date="1512588872501" expanded="true" signature="50:729" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/BittrexClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <marker date="1512588206746" expanded="false" signature="6:169" ph="..." />
-            <marker date="1512588206746" expanded="true" signature="202:9480" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="235:9478" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="847:1116" ph="/// Make a client that will connect to the designed Bittrex api page ... " />
-            <marker date="1512588206746" expanded="true" signature="1178:1749" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="1783:1931" ph="/// Get all available markets on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getmarkets ... " />
-            <marker date="1512588206746" expanded="true" signature="1991:2254" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="2272:2426" ph="/// Get all available currencies on bittrex, URL passed in: https://bittrex.com/api/v1.1/public/getcurrencies ... " />
-            <marker date="1512588206746" expanded="true" signature="2495:2734" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="2752:2967" ph="/// Get the ticker for a specific coin, URL passed in: https://bittrex.com/api/v1.1/public/getticker ... " />
-            <marker date="1512588206746" expanded="true" signature="3037:3279" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="3297:3465" ph="/// Get the market summaries for all available coins, URL passed in: https://bittrex.com/api/v1.1/public/getmarke ... " />
-            <marker date="1512588206746" expanded="true" signature="3540:3784" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="3802:4268" ph="/// Create a buylimit for the selected market, URL passed in: https://bittrex.com/api/v1.1/market/buylimit?apikey ... " />
-            <marker date="1512588206746" expanded="true" signature="4371:4744" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="4754:5198" ph="/// Create a selllimit for the selected market, https://bittrex.com/api/v1.1/market/selllimit?apikey=APIKEY&amp;marke ... " />
-            <marker date="1512588206746" expanded="true" signature="5303:5678" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="5696:5891" ph="/// Get the users available balance, URL passed in: https://bittrex.com/api/v1.1/getbalances?apikey=APIKEY&amp;nonce= ... " />
-            <marker date="1512588206746" expanded="true" signature="5959:6284" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="6356:6683" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="6701:6787" ph="/// Do a HTTP GET request to a public url ... " />
-            <marker date="1512588206746" expanded="true" signature="6849:7462" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="7480:7645" ph="/// Make a HTTP GET request to a private url, where the apikey is encrypted using HMAC-SHA512 and nonce is a time ... " />
-            <marker date="1512588206746" expanded="true" signature="7723:8279" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="8297:8497" ph="/// Cryptography magic is happening here, keep scrolling! ... " />
-            <marker date="1512588206746" expanded="true" signature="8563:8901" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="8702:8891" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="9131:9258" ph="{...}" />
-            <marker date="1512588206746" expanded="true" signature="9340:9472" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BittrexAPI/Client/CMCClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <marker date="1512589084547" expanded="true" signature="6:114" ph="..." />
-            <marker date="1512589084547" expanded="true" signature="147:1252" ph="{...}" />
-            <marker date="1512589084547" expanded="true" signature="176:1250" ph="{...}" />
-            <marker date="1512589084547" expanded="true" signature="488:552" ph="{...}" />
-            <marker date="1512589084547" expanded="true" signature="598:822" ph="{...}" />
-            <marker date="1512589084547" expanded="true" signature="885:1244" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BittrexAPI/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding>
-            <marker date="1512589098950" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512589098950" expanded="true" signature="94:753" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="121:751" ph="{...}" />
-            <marker date="1512589098950" expanded="true" signature="167:745" ph="{...}" />
+            <marker date="1512592938622" expanded="false" signature="6:72" ph="..." />
+            <marker date="1512592938622" expanded="true" signature="94:783" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="121:781" ph="{...}" />
+            <marker date="1512592938622" expanded="true" signature="167:775" ph="{...}" />
           </folding>
         </state>
       </provider>

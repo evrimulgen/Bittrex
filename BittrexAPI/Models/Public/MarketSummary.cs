@@ -2,6 +2,9 @@
 
 namespace BittrexAPI.Models
 {
+    /// <summary>
+    /// Retrieves the market summary
+    /// </summary>
     public class MarketSummary
     {
         public string MarketName { get; set; }

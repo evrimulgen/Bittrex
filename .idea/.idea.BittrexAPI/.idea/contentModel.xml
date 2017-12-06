@@ -11,9 +11,9 @@
           <e p="CalculationClient.cs" t="Include" />
           <e p="CMCClient.cs" t="Include" />
         </e>
-        <e p="config.json" t="Include" />
         <e p="Models" t="Include">
           <e p="ApiResult.cs" t="Include" />
+          <e p="ConfigReader.cs" t="Include" />
           <e p="Private" t="Include">
             <e p="AccountBalance.cs" t="Include" />
             <e p="BuyLimit.cs" t="Include" />

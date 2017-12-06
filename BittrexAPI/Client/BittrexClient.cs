@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics.PerformanceData;
+using System.IO;
 using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
@@ -213,12 +215,22 @@ namespace BittrexAPI.MainClient
             return nonce.ToString();
         }
         
-        private string BuildParameters(string parameterName, object obj)
+        /// <summary>
+        /// Read the users config file and process it
+        /// </summary>
+        /// <returns></returns>
+        public ConfigReader<ConfigSerial[]> LoadConfig()
         {
-            if (obj == null)
-                return string.Empty;
+            ConfigReader<ConfigSerial[]> userData = null;
+            
+            using (StreamReader reader = new StreamReader("config.json"))
+            {
+                string json = reader.ReadToEnd();
 
-            return $"{parameterName}={obj}";
+                userData = JsonConvert.DeserializeObject<ConfigReader<ConfigSerial[]>>(json);
+            }
+
+            return userData;
         }
     }
 }

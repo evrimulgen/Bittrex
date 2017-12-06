@@ -17,7 +17,8 @@ namespace BittrexAPI
             var calculationClient = new CalculationClient(bittrexClient);
             var cmcClient = new CMCClient();
 
-            await calculationClient.CalculateTransactionFee("ETH");
+            // Load the user config file
+            var userConfig = bittrexClient.LoadConfig();
         }
     }
 }
