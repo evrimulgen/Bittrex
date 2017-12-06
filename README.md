@@ -13,6 +13,7 @@ Private calls
 - GetBalance()
 - BuyLimit()
 - SellLimit()
+- OrderHistory()
 
 TODO
 ------
