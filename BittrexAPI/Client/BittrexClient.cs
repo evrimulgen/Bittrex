@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace BittrexAPI.MainClient
 {
-    public class BittrexClient
+    public class Client
     {
         // Initialize the Client with the base address, api version, api key and api secret
         private const string _baseAddress = "https://bittrex.com/api";
@@ -29,7 +29,7 @@ namespace BittrexAPI.MainClient
         /// </summary>
         /// <param name="apiKey">The API key Bittrex has given you</param>
         /// <param name="apiSecret">The API secret Bittrex has given you</param>
-        public BittrexClient(string apiKey, string apiSecret)
+        public Client(string apiKey, string apiSecret)
         {
             _httpClient = new HttpClient();
             

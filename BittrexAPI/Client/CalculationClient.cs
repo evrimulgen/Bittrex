@@ -6,9 +6,9 @@ namespace BittrexAPI.MainClient
 {
     public class CalculationClient
     {
-        private readonly BittrexClient _client;
+        private readonly Client _client;
 
-        public CalculationClient(BittrexClient client)
+        public CalculationClient(Client client)
         {
             _client = client;
         }
