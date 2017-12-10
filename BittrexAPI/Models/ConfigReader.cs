@@ -20,7 +20,7 @@ namespace BittrexAPI.Models
     public class ConfigSerial
     {
         public string CoinName { get; set; }
-        public decimal BoughtForUSD { get; set; }
+        public decimal Amount { get; set; }
         public DateTime TimeStamp { get; set; }
     }
 }

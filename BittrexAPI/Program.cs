@@ -1,7 +1,5 @@
-﻿using System;
-using System.Runtime.InteropServices;
-using System.Threading.Tasks;
-using BittrexAPI.MainClient;
+﻿using System.Threading.Tasks;
+using BittrexAPI.Client;
 
 namespace BittrexAPI
 {
@@ -10,16 +8,20 @@ namespace BittrexAPI
         public static async Task Main()
         {           
             // Our apiKey and apiSecret variables
-            string apiKey = "";
-            string apiSecret = "";
+            const string apiKey = "";
+            const string apiSecret = "";
             
             // Set up the three clients: one for the operations (such as buy/sell), one to calculate the margins and one for the CoinMarketCap data
-            var bittrexClient = new Client(apiKey, apiSecret);           
+            var bittrexClient = new Bittrex(apiKey, apiSecret);           
             var calculationClient = new CalculationClient(bittrexClient);
-            var cmcClient = new CMCClient();
 
             // Load the user config file
             var userConfig = bittrexClient.LoadConfig();
+
+            foreach (var item in userConfig.Result)
+            {
+                await calculationClient.CalculateToDollar(item.CoinName, item.Amount).ConfigureAwait(false);
+            }
         }
     }
 }

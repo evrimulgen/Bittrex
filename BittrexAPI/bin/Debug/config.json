@@ -1,0 +1,14 @@
+{
+    "result": [
+        {
+            "CoinName": "EMC2",
+            "Amount": "16.46485886",
+            "TimeStamp": "12/10/2017 11:12:07"
+        },
+        {
+            "CoinName": "BTC",
+            "Amount": "0.00000003",
+            "TimeStamp": "12/10/2017 11:12:07"
+        }
+    ]
+}

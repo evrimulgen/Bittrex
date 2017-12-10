@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics.PerformanceData;
 using System.IO;
 using System.Net.Http;
 using System.Security.Cryptography;
@@ -8,9 +7,9 @@ using System.Threading.Tasks;
 using BittrexAPI.Models;
 using Newtonsoft.Json;
 
-namespace BittrexAPI.MainClient
+namespace BittrexAPI.Client
 {
-    public class Client
+    public class Bittrex
     {
         // Initialize the Client with the base address, api version, api key and api secret
         private const string _baseAddress = "https://bittrex.com/api";
@@ -21,7 +20,7 @@ namespace BittrexAPI.MainClient
         // Set up different default access screens, for now we'll only use our balances and market screens
         private readonly string _publicBaseUrl, _marketBaseUrl, _accountBaseUrl;
         
-        // A httpclient lets us connect to the interwebs
+        // A httpclient lets us connect to the internet
         private readonly HttpClient _httpClient;
         
         /// <summary>
@@ -29,7 +28,7 @@ namespace BittrexAPI.MainClient
         /// </summary>
         /// <param name="apiKey">The API key Bittrex has given you</param>
         /// <param name="apiSecret">The API secret Bittrex has given you</param>
-        public Client(string apiKey, string apiSecret)
+        public Bittrex(string apiKey, string apiSecret)
         {
             _httpClient = new HttpClient();
             
@@ -221,7 +220,7 @@ namespace BittrexAPI.MainClient
         /// <returns></returns>
         public ConfigReader<ConfigSerial[]> LoadConfig()
         {
-            ConfigReader<ConfigSerial[]> userData = null;
+            ConfigReader<ConfigSerial[]> userData;
             
             using (StreamReader reader = new StreamReader("config.json"))
             {
