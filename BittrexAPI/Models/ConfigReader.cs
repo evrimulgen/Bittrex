@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System;
+using Newtonsoft.Json;
 
 namespace BittrexAPI.Models
 {
@@ -19,6 +20,7 @@ namespace BittrexAPI.Models
     public class ConfigSerial
     {
         public string CoinName { get; set; }
-        public decimal BoughtPrice { get; set; }
+        public decimal BoughtForUSD { get; set; }
+        public DateTime TimeStamp { get; set; }
     }
 }
